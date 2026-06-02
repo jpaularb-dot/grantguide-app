@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+# Build output
+frontend/dist/
+# Environment / secrets
+.env
+*.env.local
+backend/.env
+frontend/.env
+# Uploads (local Cloudinary fallback)
+backend/uploads/*
+!backend/uploads/.gitkeep
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
